@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2dd0c94311f00f4a916f23f87b15b7a, type: 3}
+  m_Name: HitsoundData
+  m_EditorClassIdentifier: 
+  hitSounds:
+  - audioLocation: PhotonHS/GrassHitsound
+    objectTag: Grass
+    audioPrefab: {fileID: 1881585790358398683, guid: 9e389bf00d4dfd640b41065d82befa60, type: 3}
+  - audioLocation: PhotonHS/RockHitsound
+    objectTag: Rock
+    audioPrefab: {fileID: 7601528881029337501, guid: 071da71cbfba2fa41995ccdda5ecef5c, type: 3}
+  - audioLocation: PhotonHS/WoodHitsound
+    objectTag: Wood
+    audioPrefab: {fileID: 3502830053749232059, guid: 1c3b309f9c286a047ad28bcbee273a38, type: 3}
+  - audioLocation: PhotonHS/MetalHitsound
+    objectTag: Metal
+    audioPrefab: {fileID: 3502830053749232059, guid: b7bc114c2e6f57e44a0a9fd77ec48008, type: 3}
+  - audioLocation: PhotonHS/CarpetHitsound
+    objectTag: Carpet
+    audioPrefab: {fileID: 3502830053749232059, guid: fc1116858e4a8b349acf5b6527fbff42, type: 3}
+  - audioLocation: PhotonHS/GlassHitsound
+    objectTag: Glass
+    audioPrefab: {fileID: 3502830053749232059, guid: c972b61c0aaa0464a94d35683a0b1ebf, type: 3}
